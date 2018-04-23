@@ -1,0 +1,4399 @@
+{frozenset({'NOES_L'}): 0.6925304548493975, frozenset({'RC_L'}): 0.8795631997828065, frozenset({'EC_L'}): 0.7245715205051759, frozenset({'NOPS_L'}): 0.6924801785813043, frozenset({'PT8'}): 0.8991608890855249, frozenset({'PCT5'}): 0.5750700097033198, frozenset({'ECT5'}): 0.5698814988361044, frozenset({'NOES_L', 'RC_L'}): 0.606759141482446, frozenset({'EC_L', 'NOES_L'}): 0.6356931337700665, frozenset({'EC_L', 'RC_L'}): 0.6882670273150965, frozenset({'NOES_L', 'NOPS_L'}): 0.6769649222477514, frozenset({'EC_L', 'NOPS_L'}): 0.6298460037908307, frozenset({'NOES_L', 'PT8'}): 0.6104192537996289, frozenset({'NOES_L', 'PCT5'}): 0.5631796722992846, frozenset({'NOES_L', 'ECT5'}): 0.5690066917712832, frozenset({'NOPS_L', 'RC_L'}): 0.6028325649443693, frozenset({'RC_L', 'PT8'}): 0.8359686477192171, frozenset({'RC_L', 'PCT5'}): 0.5098818004937129, frozenset({'RC_L', 'ECT5'}): 0.5082629046611128, frozenset({'EC_L', 'PT8'}): 0.6571409897386137, frozenset({'EC_L', 'PCT5'}): 0.5327876682369621, frozenset({'EC_L', 'ECT5'}): 0.5317670599946707, frozenset({'NOPS_L', 'PT8'}): 0.6174629589594823, frozenset({'NOPS_L', 'PCT5'}): 0.574154981624024, frozenset({'NOPS_L', 'ECT5'}): 0.5625361360676919, frozenset({'PT8', 'PCT5'}): 0.5139592058360692, frozenset({'PT8', 'ECT5'}): 0.5082880427951594, frozenset({'PCT5', 'ECT5'}): 0.5628026002885858, frozenset({'EC_L', 'NOES_L', 'RC_L'}): 0.603682233875144, frozenset({'EC_L', 'NOES_L', 'NOPS_L'}): 0.6205549494472125, frozenset({'NOES_L', 'RC_L', 'NOPS_L'}): 0.5944062624119537, frozenset({'NOES_L', 'RC_L', 'PT8'}): 0.5703993443974641, frozenset({'NOES_L', 'RC_L', 'PCT5'}): 0.5031246700619907, frozenset({'EC_L', 'NOES_L', 'PT8'}): 0.5779357569846305, frozenset({'EC_L', 'NOES_L', 'PCT5'}): 0.5253417529323633, frozenset({'EC_L', 'NOPS_L', 'RC_L'}): 0.5997154363225926, frozenset({'EC_L', 'RC_L', 'PT8'}): 0.6448434145630239, frozenset({'EC_L', 'RC_L', 'PCT5'}): 0.507679699951232, frozenset({'NOES_L', 'PT8', 'NOPS_L'}): 0.6101326790714979, frozenset({'NOES_L', 'PCT5', 'NOPS_L'}): 0.5631495065384287, frozenset({'EC_L', 'NOPS_L', 'PT8'}): 0.584743163684446, frozenset({'EC_L', 'NOPS_L', 'PCT5'}): 0.5319581098134247, frozenset({'NOES_L', 'PT8', 'PCT5'}): 0.5081120758568333, frozenset({'NOES_L', 'ECT5', 'RC_L'}): 0.5074685396252407, frozenset({'EC_L', 'NOES_L', 'ECT5'}): 0.5309777225856079, frozenset({'NOES_L', 'ECT5', 'NOPS_L'}): 0.5625361360676919, frozenset({'NOES_L', 'ECT5', 'PT8'}): 0.5074635119984314, frozenset({'NOES_L', 'ECT5', 'PCT5'}): 0.5619328208505739, frozenset({'NOPS_L', 'RC_L', 'PT8'}): 0.5771514472023771, frozenset({'NOPS_L', 'RC_L', 'PCT5'}): 0.5090522420701756, frozenset({'EC_L', 'RC_L', 'ECT5'}): 0.5060809146258691, frozenset({'NOPS_L', 'RC_L', 'ECT5'}): 0.5024208023086862, frozenset({'RC_L', 'PCT5', 'ECT5'}): 0.5027526256781012, frozenset({'EC_L', 'NOPS_L', 'ECT5'}): 0.5246529680594869, frozenset({'EC_L', 'ECT5', 'PCT5'}): 0.524954625668046, frozenset({'NOPS_L', 'PT8', 'PCT5'}): 0.5130944540248666, frozenset({'NOPS_L', 'ECT5', 'PT8'}): 0.5073880975962917, frozenset({'NOPS_L', 'ECT5', 'PCT5'}): 0.561902655089718, frozenset({'PT8', 'PCT5', 'ECT5'}): 0.507775224860609, frozenset({'NOPS_L', 'EC_L', 'NOES_L', 'RC_L'}): 0.5913394100582702, frozenset({'PT8', 'EC_L', 'NOES_L', 'RC_L'}): 0.5674581827140135, frozenset({'EC_L', 'NOES_L', 'RC_L', 'PCT5'}): 0.500957762907175, frozenset({'NOPS_L', 'PT8', 'EC_L', 'NOES_L'}): 0.5776843756441646, frozenset({'NOPS_L', 'EC_L', 'NOES_L', 'PCT5'}): 0.5253115871715074, frozenset({'NOPS_L', 'PT8', 'NOES_L', 'RC_L'}): 0.5701529906838075, frozenset({'NOPS_L', 'NOES_L', 'RC_L', 'PCT5'}): 0.5030945043011348, frozenset({'NOPS_L', 'PT8', 'EC_L', 'RC_L'}): 0.5741650368776426, frozenset({'NOPS_L', 'EC_L', 'RC_L', 'PCT5'}): 0.5068652244081226, frozenset({'NOPS_L', 'PT8', 'NOES_L', 'PCT5'}): 0.5080819100959774, frozenset({'NOPS_L', 'ECT5', 'NOES_L', 'RC_L'}): 0.5024208023086862, frozenset({'ECT5', 'NOES_L', 'RC_L', 'PCT5'}): 0.5019632882690384, frozenset({'ECT5', 'EC_L', 'NOES_L', 'RC_L'}): 0.505301632470425, frozenset({'NOPS_L', 'ECT5', 'EC_L', 'NOES_L'}): 0.5246529680594869, frozenset({'ECT5', 'EC_L', 'NOES_L', 'PCT5'}): 0.5241703158857924, frozenset({'NOPS_L', 'ECT5', 'PT8', 'NOES_L'}): 0.5073880975962917, frozenset({'NOPS_L', 'ECT5', 'NOES_L', 'PCT5'}): 0.561902655089718, frozenset({'ECT5', 'PT8', 'NOES_L', 'PCT5'}): 0.506950694063881, frozenset({'NOPS_L', 'ECT5', 'EC_L', 'RC_L'}): 0.5002538951538705, frozenset({'ECT5', 'EC_L', 'RC_L', 'PCT5'}): 0.5005756632696668, frozenset({'NOPS_L', 'ECT5', 'RC_L', 'PCT5'}): 0.5019331225081824, frozenset({'NOPS_L', 'ECT5', 'EC_L', 'PCT5'}): 0.5241401501249365, frozenset({'NOPS_L', 'ECT5', 'PT8', 'PCT5'}): 0.5069205283030251, frozenset({'NOPS_L', 'PT8', 'EC_L', 'NOES_L', 'RC_L'}): 0.5672118290003569, frozenset({'NOPS_L', 'EC_L', 'NOES_L', 'RC_L', 'PCT5'}): 0.5009275971463191, frozenset({'NOPS_L', 'NOES_L', 'RC_L', 'ECT5', 'PCT5'}): 0.5019331225081824, frozenset({'NOPS_L', 'EC_L', 'NOES_L', 'RC_L', 'ECT5'}): 0.5002538951538705, frozenset({'NOPS_L', 'EC_L', 'NOES_L', 'ECT5', 'PCT5'}): 0.5241401501249365, frozenset({'NOPS_L', 'PT8', 'NOES_L', 'ECT5', 'PCT5'}): 0.5069205283030251}
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'PT8'})]----->('RC_L',)
+0.9297208740578381
+[frozenset({'RC_L'})]----->('PT8',)
+0.95043613457867
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'NOPS_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOES_L', 'NOPS_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOES_L', 'PT8'})]----->('RC_L',)
+0.9344386515447276
+[frozenset({'NOES_L', 'RC_L'})]----->('PT8',)
+0.940075402908398
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867476532302597
+[frozenset({'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933644000464216
+[frozenset({'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8291999834279323
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PT8'})]----->('EC_L',)
+0.9467849406570961
+[frozenset({'EC_L', 'PT8'})]----->('NOES_L',)
+0.8794699554725873
+[frozenset({'EC_L', 'NOES_L'})]----->('PT8',)
+0.9091426763682379
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328137693385825
+[frozenset({'EC_L', 'PCT5'})]----->('NOES_L',)
+0.986024610274412
+[frozenset({'EC_L', 'NOES_L'})]----->('PCT5',)
+0.8264077823473583
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'PT8'})]----->('RC_L',)
+0.9297208740578381
+[frozenset({'RC_L'})]----->('PT8',)
+0.95043613457867
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'PT8'})]----->('EC_L',)
+0.7713727259058789
+[frozenset({'EC_L', 'PT8'})]----->('RC_L',)
+0.9812862454669259
+[frozenset({'EC_L', 'RC_L'})]----->('PT8',)
+0.9369087708277026
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956811548473614
+[frozenset({'EC_L', 'PCT5'})]----->('RC_L',)
+0.9528743441663835
+[frozenset({'EC_L', 'RC_L'})]----->('PCT5',)
+0.7376202546440023
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'NOES_L', 'NOPS_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOES_L', 'NOPS_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PT8'})]----->('EC_L',)
+0.9470092986141645
+[frozenset({'EC_L', 'PT8'})]----->('NOPS_L',)
+0.8898290820620324
+[frozenset({'EC_L', 'NOPS_L'})]----->('PT8',)
+0.9283906862392937
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PCT5'})]----->('EC_L',)
+0.9265061295971978
+[frozenset({'EC_L', 'PCT5'})]----->('NOPS_L',)
+0.9984429849394179
+[frozenset({'EC_L', 'NOPS_L'})]----->('PCT5',)
+0.844584400967456
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8', 'PCT5'})]----->('NOES_L',)
+0.988623357821319
+[frozenset({'NOES_L', 'PCT5'})]----->('PT8',)
+0.9022201987198372
+[frozenset({'NOES_L', 'PT8'})]----->('PCT5',)
+0.8323985075733241
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'RC_L'})]----->('NOES_L',)
+0.9984370981462798
+[frozenset({'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8363591167087875
+[frozenset({'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8918498621615892
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9331660422704462
+[frozenset({'EC_L', 'ECT5'})]----->('NOES_L',)
+0.9985156331250179
+[frozenset({'EC_L', 'NOES_L'})]----->('ECT5',)
+0.8352736475798798
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOES_L', 'NOPS_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PT8'})]----->('NOES_L',)
+0.9983778276738644
+[frozenset({'NOES_L', 'PT8'})]----->('ECT5',)
+0.831336018383534
+[frozenset({'NOES_L', 'ECT5'})]----->('PT8',)
+0.8918410263660141
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PCT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOPS_L', 'PT8'})]----->('RC_L',)
+0.9347142833878874
+[frozenset({'NOPS_L', 'RC_L'})]----->('PT8',)
+0.9573992527355218
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.998373037784965
+[frozenset({'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.8866112084063048
+[frozenset({'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.8444338804376835
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'ECT5'})]----->('EC_L',)
+0.9957069657942114
+[frozenset({'EC_L', 'ECT5'})]----->('RC_L',)
+0.9516966218835387
+[frozenset({'EC_L', 'RC_L'})]----->('ECT5',)
+0.7352973403361651
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9885057471264369
+[frozenset({'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8334334133973845
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5', 'ECT5'})]----->('RC_L',)
+0.8933018884779619
+[frozenset({'RC_L', 'ECT5'})]----->('PCT5',)
+0.989158604862801
+[frozenset({'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860179853277591
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'ECT5'})]----->('NOPS_L',)
+0.9866217889929944
+[frozenset({'EC_L', 'NOPS_L'})]----->('ECT5',)
+0.8329861027962036
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'PCT5'})]----->('EC_L',)
+0.9327508888531563
+[frozenset({'EC_L', 'PCT5'})]----->('ECT5',)
+0.9852980032461406
+[frozenset({'EC_L', 'ECT5'})]----->('PCT5',)
+0.9871890629579557
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8', 'PCT5'})]----->('NOPS_L',)
+0.9983174699443395
+[frozenset({'NOPS_L', 'PCT5'})]----->('PT8',)
+0.8936514886164624
+[frozenset({'NOPS_L', 'PT8'})]----->('PCT5',)
+0.830972039018353
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PT8'})]----->('NOPS_L',)
+0.998229458253791
+[frozenset({'NOPS_L', 'PT8'})]----->('ECT5',)
+0.8217304216131712
+[frozenset({'NOPS_L', 'ECT5'})]----->('PT8',)
+0.9019653406501087
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5', 'ECT5'})]----->('PT8',)
+0.9022261528291436
+[frozenset({'PT8', 'ECT5'})]----->('PCT5',)
+0.9989910879435009
+[frozenset({'PT8', 'PCT5'})]----->('ECT5',)
+0.9879679536717304
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9795541045863765
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9948404777210136
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860333322155528
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.9529203023600612
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L', 'RC_L'})]----->('PT8',)
+0.940075402908398
+[frozenset({'NOES_L', 'PT8'})]----->('RC_L',)
+0.9344386515447276
+[frozenset({'RC_L'})]----->('PT8',)
+0.95043613457867
+[frozenset({'PT8'})]----->('RC_L',)
+0.9297208740578381
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'PT8', 'RC_L'})]----->('EC_L',)
+0.7713727259058789
+[frozenset({'EC_L', 'RC_L'})]----->('PT8',)
+0.9369087708277026
+[frozenset({'EC_L', 'PT8'})]----->('RC_L',)
+0.9812862454669259
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PT8'})]----->('EC_L',)
+0.9467849406570961
+[frozenset({'EC_L', 'PT8'})]----->('NOES_L',)
+0.8794699554725873
+[frozenset({'EC_L', 'NOES_L'})]----->('PT8',)
+0.9091426763682379
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('PT8',)
+0.9399948364744779
+[frozenset({'NOES_L', 'PT8', 'RC_L'})]----->('EC_L',)
+0.9948436797616633
+[frozenset({'EC_L', 'PT8', 'RC_L'})]----->('NOES_L',)
+0.8799937626695774
+[frozenset({'EC_L', 'NOES_L', 'PT8'})]----->('RC_L',)
+0.9818706938548264
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867476532302597
+[frozenset({'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933644000464216
+[frozenset({'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8291999834279323
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956811548473614
+[frozenset({'EC_L', 'PCT5'})]----->('RC_L',)
+0.9528743441663835
+[frozenset({'EC_L', 'RC_L'})]----->('PCT5',)
+0.7376202546440023
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328137693385825
+[frozenset({'EC_L', 'PCT5'})]----->('NOES_L',)
+0.986024610274412
+[frozenset({'EC_L', 'NOES_L'})]----->('PCT5',)
+0.8264077823473583
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOES_L', 'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956931009673036
+[frozenset({'EC_L', 'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867594921666107
+[frozenset({'EC_L', 'NOES_L', 'PCT5'})]----->('RC_L',)
+0.9535845192408917
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8298368492500395
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PT8'})]----->('EC_L',)
+0.9467849406570961
+[frozenset({'EC_L', 'PT8'})]----->('NOES_L',)
+0.8794699554725873
+[frozenset({'EC_L', 'NOES_L'})]----->('PT8',)
+0.9091426763682379
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PT8'})]----->('EC_L',)
+0.9470092986141645
+[frozenset({'EC_L', 'PT8'})]----->('NOPS_L',)
+0.8898290820620324
+[frozenset({'EC_L', 'NOPS_L'})]----->('PT8',)
+0.9283906862392937
+[frozenset({'EC_L', 'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995650358410467
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9309157491351302
+[frozenset({'NOPS_L', 'PT8', 'NOES_L'})]----->('EC_L',)
+0.9468176274761856
+[frozenset({'EC_L', 'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9879283957835365
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328137693385825
+[frozenset({'EC_L', 'PCT5'})]----->('NOES_L',)
+0.986024610274412
+[frozenset({'EC_L', 'NOES_L'})]----->('PCT5',)
+0.8264077823473583
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PCT5'})]----->('EC_L',)
+0.9265061295971978
+[frozenset({'EC_L', 'PCT5'})]----->('NOPS_L',)
+0.9984429849394179
+[frozenset({'EC_L', 'NOPS_L'})]----->('PCT5',)
+0.844584400967456
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'EC_L', 'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999425787866898
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328101704296898
+[frozenset({'EC_L', 'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.9875055525626849
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8465190514384787
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L', 'RC_L'})]----->('PT8',)
+0.940075402908398
+[frozenset({'NOES_L', 'PT8'})]----->('RC_L',)
+0.9344386515447276
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOPS_L', 'RC_L'})]----->('PT8',)
+0.9573992527355218
+[frozenset({'NOPS_L', 'PT8'})]----->('RC_L',)
+0.9347142833878874
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'NOES_L', 'PT8', 'RC_L'})]----->('NOPS_L',)
+0.9995681030911479
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('PT8',)
+0.9591974828297865
+[frozenset({'NOPS_L', 'PT8', 'RC_L'})]----->('NOES_L',)
+0.9878741419561656
+[frozenset({'NOPS_L', 'PT8', 'NOES_L'})]----->('RC_L',)
+0.9344737796235868
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867476532302597
+[frozenset({'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933644000464216
+[frozenset({'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8291999834279323
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.998373037784965
+[frozenset({'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.8866112084063048
+[frozenset({'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.8444338804376835
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L', 'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.9999400431689184
+[frozenset({'NOPS_L', 'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9882964118872901
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933586879860015
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8463815678181142
+[frozenset({'RC_L'})]----->('PT8',)
+0.95043613457867
+[frozenset({'PT8'})]----->('RC_L',)
+0.9297208740578381
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'PT8', 'RC_L'})]----->('EC_L',)
+0.7713727259058789
+[frozenset({'EC_L', 'RC_L'})]----->('PT8',)
+0.9369087708277026
+[frozenset({'EC_L', 'PT8'})]----->('RC_L',)
+0.9812862454669259
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOPS_L', 'RC_L'})]----->('PT8',)
+0.9573992527355218
+[frozenset({'NOPS_L', 'PT8'})]----->('RC_L',)
+0.9347142833878874
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PT8'})]----->('EC_L',)
+0.9470092986141645
+[frozenset({'EC_L', 'PT8'})]----->('NOPS_L',)
+0.8898290820620324
+[frozenset({'EC_L', 'NOPS_L'})]----->('PT8',)
+0.9283906862392937
+[frozenset({'EC_L', 'PT8', 'RC_L'})]----->('NOPS_L',)
+0.8903945111492281
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('PT8',)
+0.9573957949096275
+[frozenset({'NOPS_L', 'PT8', 'RC_L'})]----->('EC_L',)
+0.9948256036795706
+[frozenset({'EC_L', 'NOPS_L', 'PT8'})]----->('RC_L',)
+0.9819097896927071
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956811548473614
+[frozenset({'EC_L', 'PCT5'})]----->('RC_L',)
+0.9528743441663835
+[frozenset({'EC_L', 'RC_L'})]----->('PCT5',)
+0.7376202546440023
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.998373037784965
+[frozenset({'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.8866112084063048
+[frozenset({'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.8444338804376835
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PCT5'})]----->('EC_L',)
+0.9265061295971978
+[frozenset({'EC_L', 'PCT5'})]----->('NOPS_L',)
+0.9984429849394179
+[frozenset({'EC_L', 'NOPS_L'})]----->('PCT5',)
+0.844584400967456
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'EC_L', 'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.9983956901503299
+[frozenset({'NOPS_L', 'RC_L', 'PCT5'})]----->('EC_L',)
+0.9957037461358407
+[frozenset({'EC_L', 'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.9528292078973982
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.845176218101338
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8', 'PCT5'})]----->('NOES_L',)
+0.988623357821319
+[frozenset({'NOES_L', 'PCT5'})]----->('PT8',)
+0.9022201987198372
+[frozenset({'NOES_L', 'PT8'})]----->('PCT5',)
+0.8323985075733241
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8', 'PCT5'})]----->('NOPS_L',)
+0.9983174699443395
+[frozenset({'NOPS_L', 'PCT5'})]----->('PT8',)
+0.8936514886164624
+[frozenset({'NOPS_L', 'PT8'})]----->('PCT5',)
+0.830972039018353
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'NOES_L', 'PT8', 'PCT5'})]----->('NOPS_L',)
+0.9999406316789361
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('PT8',)
+0.902214961030613
+[frozenset({'NOPS_L', 'PT8', 'PCT5'})]----->('NOES_L',)
+0.9902307579246484
+[frozenset({'NOPS_L', 'PT8', 'NOES_L'})]----->('PCT5',)
+0.8327400375753978
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'RC_L'})]----->('NOES_L',)
+0.9984370981462798
+[frozenset({'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8363591167087875
+[frozenset({'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8918498621615892
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'RC_L'})]----->('NOPS_L',)
+0.9885057471264369
+[frozenset({'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8334334133973845
+[frozenset({'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOES_L', 'ECT5', 'RC_L'})]----->('NOPS_L',)
+0.9900531029563286
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('ECT5',)
+0.845248164563386
+[frozenset({'NOPS_L', 'ECT5', 'RC_L'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'ECT5', 'NOES_L'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867476532302597
+[frozenset({'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933644000464216
+[frozenset({'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8291999834279323
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860179853277591
+[frozenset({'ECT5', 'PCT5'})]----->('RC_L',)
+0.8933018884779619
+[frozenset({'ECT5', 'RC_L'})]----->('PCT5',)
+0.989158604862801
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PCT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'RC_L'})]----->('NOES_L',)
+0.9984370981462798
+[frozenset({'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8363591167087875
+[frozenset({'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8918498621615892
+[frozenset({'NOES_L', 'RC_L', 'PCT5'})]----->('ECT5',)
+0.9976916620033575
+[frozenset({'ECT5', 'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9984299685993719
+[frozenset({'NOES_L', 'ECT5', 'PCT5'})]----->('RC_L',)
+0.893279889772656
+[frozenset({'NOES_L', 'ECT5', 'RC_L'})]----->('PCT5',)
+0.9891515415708962
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'RC_L'})]----->('NOES_L',)
+0.9984370981462798
+[frozenset({'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8363591167087875
+[frozenset({'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8918498621615892
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'RC_L'})]----->('EC_L',)
+0.9957069657942114
+[frozenset({'EC_L', 'RC_L'})]----->('ECT5',)
+0.7352973403361651
+[frozenset({'EC_L', 'ECT5'})]----->('RC_L',)
+0.9516966218835387
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9331660422704462
+[frozenset({'EC_L', 'ECT5'})]----->('NOES_L',)
+0.9985156331250179
+[frozenset({'EC_L', 'NOES_L'})]----->('ECT5',)
+0.8352736475798798
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8370324719129196
+[frozenset({'NOES_L', 'ECT5', 'RC_L'})]----->('EC_L',)
+0.9957299675041611
+[frozenset({'EC_L', 'ECT5', 'RC_L'})]----->('NOES_L',)
+0.9984601629246972
+[frozenset({'EC_L', 'NOES_L', 'ECT5'})]----->('RC_L',)
+0.9516437526038708
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9331660422704462
+[frozenset({'EC_L', 'ECT5'})]----->('NOES_L',)
+0.9985156331250179
+[frozenset({'EC_L', 'NOES_L'})]----->('ECT5',)
+0.8352736475798798
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'ECT5'})]----->('NOPS_L',)
+0.9866217889929944
+[frozenset({'EC_L', 'NOPS_L'})]----->('ECT5',)
+0.8329861027962036
+[frozenset({'EC_L', 'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.988088474794531
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8454577125310908
+[frozenset({'NOPS_L', 'ECT5', 'NOES_L'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328137693385825
+[frozenset({'EC_L', 'PCT5'})]----->('NOES_L',)
+0.986024610274412
+[frozenset({'EC_L', 'NOES_L'})]----->('PCT5',)
+0.8264077823473583
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PCT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'PCT5'})]----->('EC_L',)
+0.9327508888531563
+[frozenset({'EC_L', 'PCT5'})]----->('ECT5',)
+0.9852980032461406
+[frozenset({'EC_L', 'ECT5'})]----->('PCT5',)
+0.9871890629579557
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9331660422704462
+[frozenset({'EC_L', 'ECT5'})]----->('NOES_L',)
+0.9985156331250179
+[frozenset({'EC_L', 'NOES_L'})]----->('ECT5',)
+0.8352736475798798
+[frozenset({'EC_L', 'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977701428831193
+[frozenset({'NOES_L', 'ECT5', 'PCT5'})]----->('EC_L',)
+0.932798897726561
+[frozenset({'EC_L', 'ECT5', 'PCT5'})]----->('NOES_L',)
+0.9985059474783075
+[frozenset({'EC_L', 'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9871794871794871
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PT8'})]----->('NOES_L',)
+0.9983778276738644
+[frozenset({'NOES_L', 'PT8'})]----->('ECT5',)
+0.831336018383534
+[frozenset({'NOES_L', 'ECT5'})]----->('PT8',)
+0.8918410263660141
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PT8'})]----->('NOPS_L',)
+0.998229458253791
+[frozenset({'NOPS_L', 'PT8'})]----->('ECT5',)
+0.8217304216131712
+[frozenset({'NOPS_L', 'ECT5'})]----->('PT8',)
+0.9019653406501087
+[frozenset({'NOES_L', 'ECT5', 'PT8'})]----->('NOPS_L',)
+0.9998513895080993
+[frozenset({'NOPS_L', 'PT8', 'NOES_L'})]----->('ECT5',)
+0.8316028873726886
+[frozenset({'NOPS_L', 'ECT5', 'NOES_L'})]----->('PT8',)
+0.9019653406501087
+[frozenset({'NOPS_L', 'ECT5', 'PT8'})]----->('NOES_L',)
+1.0
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PCT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOES_L', 'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9999463178519983
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977859317388471
+[frozenset({'NOPS_L', 'ECT5', 'PCT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'ECT5', 'NOES_L'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8', 'PCT5'})]----->('NOES_L',)
+0.988623357821319
+[frozenset({'NOES_L', 'PCT5'})]----->('PT8',)
+0.9022201987198372
+[frozenset({'NOES_L', 'PT8'})]----->('PCT5',)
+0.8323985075733241
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PCT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'PT8', 'PCT5'})]----->('ECT5',)
+0.9879679536717304
+[frozenset({'ECT5', 'PCT5'})]----->('PT8',)
+0.9022261528291436
+[frozenset({'ECT5', 'PT8'})]----->('PCT5',)
+0.9989910879435009
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PT8'})]----->('NOES_L',)
+0.9983778276738644
+[frozenset({'NOES_L', 'PT8'})]----->('ECT5',)
+0.831336018383534
+[frozenset({'NOES_L', 'ECT5'})]----->('PT8',)
+0.8918410263660141
+[frozenset({'NOES_L', 'PT8', 'PCT5'})]----->('ECT5',)
+0.9977143196390407
+[frozenset({'NOES_L', 'ECT5', 'PCT5'})]----->('PT8',)
+0.9021553382422675
+[frozenset({'ECT5', 'PT8', 'PCT5'})]----->('NOES_L',)
+0.9983761893917642
+[frozenset({'NOES_L', 'ECT5', 'PT8'})]----->('PCT5',)
+0.998989448655075
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'RC_L'})]----->('EC_L',)
+0.9957069657942114
+[frozenset({'EC_L', 'RC_L'})]----->('ECT5',)
+0.7352973403361651
+[frozenset({'EC_L', 'ECT5'})]----->('RC_L',)
+0.9516966218835387
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'RC_L'})]----->('NOPS_L',)
+0.9885057471264369
+[frozenset({'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8334334133973845
+[frozenset({'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'ECT5'})]----->('NOPS_L',)
+0.9866217889929944
+[frozenset({'EC_L', 'NOPS_L'})]----->('ECT5',)
+0.8329861027962036
+[frozenset({'EC_L', 'ECT5', 'RC_L'})]----->('NOPS_L',)
+0.9884859924498312
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8341521075751988
+[frozenset({'NOPS_L', 'ECT5', 'RC_L'})]----->('EC_L',)
+0.9956870672056999
+[frozenset({'EC_L', 'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.9534948348889357
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956811548473614
+[frozenset({'EC_L', 'PCT5'})]----->('RC_L',)
+0.9528743441663835
+[frozenset({'EC_L', 'RC_L'})]----->('PCT5',)
+0.7376202546440023
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860179853277591
+[frozenset({'ECT5', 'PCT5'})]----->('RC_L',)
+0.8933018884779619
+[frozenset({'ECT5', 'RC_L'})]----->('PCT5',)
+0.989158604862801
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'PCT5'})]----->('EC_L',)
+0.9327508888531563
+[frozenset({'EC_L', 'PCT5'})]----->('ECT5',)
+0.9852980032461406
+[frozenset({'EC_L', 'ECT5'})]----->('PCT5',)
+0.9871890629579557
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'RC_L'})]----->('EC_L',)
+0.9957069657942114
+[frozenset({'EC_L', 'RC_L'})]----->('ECT5',)
+0.7352973403361651
+[frozenset({'EC_L', 'ECT5'})]----->('RC_L',)
+0.9516966218835387
+[frozenset({'EC_L', 'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860068529778765
+[frozenset({'ECT5', 'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956699133982679
+[frozenset({'EC_L', 'ECT5', 'PCT5'})]----->('RC_L',)
+0.953559867450725
+[frozenset({'EC_L', 'ECT5', 'RC_L'})]----->('PCT5',)
+0.9891217961454402
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860179853277591
+[frozenset({'ECT5', 'PCT5'})]----->('RC_L',)
+0.8933018884779619
+[frozenset({'ECT5', 'RC_L'})]----->('PCT5',)
+0.989158604862801
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.998373037784965
+[frozenset({'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.8866112084063048
+[frozenset({'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.8444338804376835
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'RC_L'})]----->('NOPS_L',)
+0.9885057471264369
+[frozenset({'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8334334133973845
+[frozenset({'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'ECT5', 'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.9983699673993479
+[frozenset({'NOPS_L', 'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860149529387363
+[frozenset({'NOPS_L', 'ECT5', 'PCT5'})]----->('RC_L',)
+0.8932741605003444
+[frozenset({'NOPS_L', 'ECT5', 'RC_L'})]----->('PCT5',)
+0.9990293399511667
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'PCT5'})]----->('EC_L',)
+0.9327508888531563
+[frozenset({'EC_L', 'PCT5'})]----->('ECT5',)
+0.9852980032461406
+[frozenset({'EC_L', 'ECT5'})]----->('PCT5',)
+0.9871890629579557
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PCT5'})]----->('EC_L',)
+0.9265061295971978
+[frozenset({'EC_L', 'PCT5'})]----->('NOPS_L',)
+0.9984429849394179
+[frozenset({'EC_L', 'NOPS_L'})]----->('PCT5',)
+0.844584400967456
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'ECT5'})]----->('NOPS_L',)
+0.9866217889929944
+[frozenset({'EC_L', 'NOPS_L'})]----->('ECT5',)
+0.8329861027962036
+[frozenset({'EC_L', 'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9984484839197808
+[frozenset({'EC_L', 'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.9853034298297845
+[frozenset({'NOPS_L', 'ECT5', 'PCT5'})]----->('EC_L',)
+0.9327952900333741
+[frozenset({'EC_L', 'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9990225578319949
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'PT8', 'PCT5'})]----->('ECT5',)
+0.9879679536717304
+[frozenset({'ECT5', 'PCT5'})]----->('PT8',)
+0.9022261528291436
+[frozenset({'ECT5', 'PT8'})]----->('PCT5',)
+0.9989910879435009
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8', 'PCT5'})]----->('NOPS_L',)
+0.9983174699443395
+[frozenset({'NOPS_L', 'PCT5'})]----->('PT8',)
+0.8936514886164624
+[frozenset({'NOPS_L', 'PT8'})]----->('PCT5',)
+0.830972039018353
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PT8'})]----->('NOPS_L',)
+0.998229458253791
+[frozenset({'NOPS_L', 'PT8'})]----->('ECT5',)
+0.8217304216131712
+[frozenset({'NOPS_L', 'ECT5'})]----->('PT8',)
+0.9019653406501087
+[frozenset({'ECT5', 'PT8', 'PCT5'})]----->('NOPS_L',)
+0.9983167816865849
+[frozenset({'NOPS_L', 'PT8', 'PCT5'})]----->('ECT5',)
+0.9879672725491158
+[frozenset({'NOPS_L', 'ECT5', 'PCT5'})]----->('PT8',)
+0.9021500854486726
+[frozenset({'NOPS_L', 'ECT5', 'PT8'})]----->('PCT5',)
+0.999078478002378
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L', 'RC_L'})]----->('PT8',)
+0.940075402908398
+[frozenset({'NOES_L', 'PT8'})]----->('RC_L',)
+0.9344386515447276
+[frozenset({'RC_L'})]----->('PT8',)
+0.95043613457867
+[frozenset({'PT8'})]----->('RC_L',)
+0.9297208740578381
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'PT8', 'RC_L'})]----->('EC_L',)
+0.7713727259058789
+[frozenset({'EC_L', 'RC_L'})]----->('PT8',)
+0.9369087708277026
+[frozenset({'EC_L', 'PT8'})]----->('RC_L',)
+0.9812862454669259
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PT8'})]----->('EC_L',)
+0.9467849406570961
+[frozenset({'EC_L', 'PT8'})]----->('NOES_L',)
+0.8794699554725873
+[frozenset({'EC_L', 'NOES_L'})]----->('PT8',)
+0.9091426763682379
+[frozenset({'NOES_L', 'PT8', 'RC_L'})]----->('EC_L',)
+0.9948436797616633
+[frozenset({'EC_L', 'PT8', 'RC_L'})]----->('NOES_L',)
+0.8799937626695774
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('PT8',)
+0.9399948364744779
+[frozenset({'EC_L', 'NOES_L', 'PT8'})]----->('RC_L',)
+0.9818706938548264
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9948404777210136
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9795541045863765
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860333322155528
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.9529203023600612
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L', 'RC_L'})]----->('PT8',)
+0.940075402908398
+[frozenset({'NOES_L', 'PT8'})]----->('RC_L',)
+0.9344386515447276
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOPS_L', 'RC_L'})]----->('PT8',)
+0.9573992527355218
+[frozenset({'NOPS_L', 'PT8'})]----->('RC_L',)
+0.9347142833878874
+[frozenset({'NOES_L', 'PT8', 'RC_L'})]----->('NOPS_L',)
+0.9995681030911479
+[frozenset({'NOPS_L', 'RC_L', 'NOES_L'})]----->('PT8',)
+0.9591974828297865
+[frozenset({'NOPS_L', 'PT8', 'NOES_L'})]----->('RC_L',)
+0.9344737796235868
+[frozenset({'NOPS_L', 'PT8', 'RC_L'})]----->('NOES_L',)
+0.9878741419561656
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOPS_L', 'RC_L'})]----->('PT8',)
+0.9573992527355218
+[frozenset({'NOPS_L', 'PT8'})]----->('RC_L',)
+0.9347142833878874
+[frozenset({'RC_L'})]----->('PT8',)
+0.95043613457867
+[frozenset({'PT8'})]----->('RC_L',)
+0.9297208740578381
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'PT8', 'RC_L'})]----->('EC_L',)
+0.7713727259058789
+[frozenset({'EC_L', 'RC_L'})]----->('PT8',)
+0.9369087708277026
+[frozenset({'EC_L', 'PT8'})]----->('RC_L',)
+0.9812862454669259
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PT8'})]----->('EC_L',)
+0.9470092986141645
+[frozenset({'EC_L', 'PT8'})]----->('NOPS_L',)
+0.8898290820620324
+[frozenset({'EC_L', 'NOPS_L'})]----->('PT8',)
+0.9283906862392937
+[frozenset({'NOPS_L', 'PT8', 'RC_L'})]----->('EC_L',)
+0.9948256036795706
+[frozenset({'EC_L', 'PT8', 'RC_L'})]----->('NOPS_L',)
+0.8903945111492281
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('PT8',)
+0.9573957949096275
+[frozenset({'EC_L', 'NOPS_L', 'PT8'})]----->('RC_L',)
+0.9819097896927071
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PT8'})]----->('EC_L',)
+0.9467849406570961
+[frozenset({'EC_L', 'PT8'})]----->('NOES_L',)
+0.8794699554725873
+[frozenset({'EC_L', 'NOES_L'})]----->('PT8',)
+0.9091426763682379
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8'})]----->('EC_L',)
+0.7308380488023082
+[frozenset({'EC_L'})]----->('PT8',)
+0.9069373707656226
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PT8'})]----->('EC_L',)
+0.9470092986141645
+[frozenset({'EC_L', 'PT8'})]----->('NOPS_L',)
+0.8898290820620324
+[frozenset({'EC_L', 'NOPS_L'})]----->('PT8',)
+0.9283906862392937
+[frozenset({'NOPS_L', 'PT8', 'NOES_L'})]----->('EC_L',)
+0.9468176274761856
+[frozenset({'EC_L', 'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995650358410467
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9309157491351302
+[frozenset({'EC_L', 'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9879283957835365
+[frozenset({'EC_L', 'NOES_L', 'PT8', 'RC_L'})]----->('NOPS_L',)
+0.9995658645497395
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L', 'RC_L'})]----->('PT8',)
+0.9591984220102365
+[frozenset({'NOPS_L', 'PT8', 'RC_L', 'NOES_L'})]----->('EC_L',)
+0.9948414518006419
+[frozenset({'EC_L', 'NOPS_L', 'PT8', 'RC_L'})]----->('NOES_L',)
+0.987889879336614
+[frozenset({'EC_L', 'NOPS_L', 'PT8', 'NOES_L'})]----->('RC_L',)
+0.9818715078936834
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867476532302597
+[frozenset({'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933644000464216
+[frozenset({'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8291999834279323
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956811548473614
+[frozenset({'EC_L', 'PCT5'})]----->('RC_L',)
+0.9528743441663835
+[frozenset({'EC_L', 'RC_L'})]----->('PCT5',)
+0.7376202546440023
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328137693385825
+[frozenset({'EC_L', 'PCT5'})]----->('NOES_L',)
+0.986024610274412
+[frozenset({'EC_L', 'NOES_L'})]----->('PCT5',)
+0.8264077823473583
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOES_L', 'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956931009673036
+[frozenset({'EC_L', 'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867594921666107
+[frozenset({'EC_L', 'NOES_L', 'PCT5'})]----->('RC_L',)
+0.9535845192408917
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8298368492500395
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867476532302597
+[frozenset({'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933644000464216
+[frozenset({'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8291999834279323
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.998373037784965
+[frozenset({'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.8866112084063048
+[frozenset({'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.8444338804376835
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L', 'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.9999400431689184
+[frozenset({'NOPS_L', 'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9882964118872901
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933586879860015
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8463815678181142
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.998373037784965
+[frozenset({'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.8866112084063048
+[frozenset({'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.8444338804376835
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956811548473614
+[frozenset({'EC_L', 'PCT5'})]----->('RC_L',)
+0.9528743441663835
+[frozenset({'EC_L', 'RC_L'})]----->('PCT5',)
+0.7376202546440023
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PCT5'})]----->('EC_L',)
+0.9265061295971978
+[frozenset({'EC_L', 'PCT5'})]----->('NOPS_L',)
+0.9984429849394179
+[frozenset({'EC_L', 'NOPS_L'})]----->('PCT5',)
+0.844584400967456
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'NOPS_L', 'RC_L', 'PCT5'})]----->('EC_L',)
+0.9957037461358407
+[frozenset({'EC_L', 'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.9983956901503299
+[frozenset({'EC_L', 'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.9528292078973982
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.845176218101338
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328137693385825
+[frozenset({'EC_L', 'PCT5'})]----->('NOES_L',)
+0.986024610274412
+[frozenset({'EC_L', 'NOES_L'})]----->('PCT5',)
+0.8264077823473583
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PCT5'})]----->('EC_L',)
+0.9265061295971978
+[frozenset({'EC_L', 'PCT5'})]----->('NOPS_L',)
+0.9984429849394179
+[frozenset({'EC_L', 'NOPS_L'})]----->('PCT5',)
+0.844584400967456
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328101704296898
+[frozenset({'EC_L', 'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999425787866898
+[frozenset({'EC_L', 'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.9875055525626849
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8465190514384787
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9948404777210136
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9795541045863765
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860333322155528
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.9529203023600612
+[frozenset({'EC_L', 'NOES_L', 'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.9999397838239279
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L', 'PCT5'})]----->('EC_L',)
+0.9956928427238023
+[frozenset({'EC_L', 'NOPS_L', 'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9882855895889542
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L', 'PCT5'})]----->('RC_L',)
+0.9535818538546205
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8471067353636349
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5', 'ECT5'})]----->('RC_L',)
+0.8933018884779619
+[frozenset({'RC_L', 'ECT5'})]----->('PCT5',)
+0.989158604862801
+[frozenset({'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860179853277591
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5', 'ECT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'ECT5'})]----->('NOES_L',)
+0.9984370981462798
+[frozenset({'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8918498621615892
+[frozenset({'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8363591167087875
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867476532302597
+[frozenset({'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933644000464216
+[frozenset({'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8291999834279323
+[frozenset({'RC_L', 'PCT5', 'ECT5'})]----->('NOES_L',)
+0.9984299685993719
+[frozenset({'NOES_L', 'PCT5', 'ECT5'})]----->('RC_L',)
+0.893279889772656
+[frozenset({'NOES_L', 'RC_L', 'ECT5'})]----->('PCT5',)
+0.9891515415708962
+[frozenset({'NOES_L', 'RC_L', 'PCT5'})]----->('ECT5',)
+0.9976916620033575
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5', 'ECT5'})]----->('RC_L',)
+0.8933018884779619
+[frozenset({'RC_L', 'ECT5'})]----->('PCT5',)
+0.989158604862801
+[frozenset({'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860179853277591
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9885057471264369
+[frozenset({'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8334334133973845
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.998373037784965
+[frozenset({'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.8866112084063048
+[frozenset({'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.8444338804376835
+[frozenset({'RC_L', 'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9983699673993479
+[frozenset({'NOPS_L', 'PCT5', 'ECT5'})]----->('RC_L',)
+0.8932741605003444
+[frozenset({'NOPS_L', 'RC_L', 'ECT5'})]----->('PCT5',)
+0.9990293399511667
+[frozenset({'NOPS_L', 'RC_L', 'PCT5'})]----->('ECT5',)
+0.9860149529387363
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5', 'ECT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'NOES_L', 'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9999463178519983
+[frozenset({'NOPS_L', 'PCT5', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977859317388471
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9867476532302597
+[frozenset({'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933644000464216
+[frozenset({'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8291999834279323
+[frozenset({'PCT5'})]----->('RC_L',)
+0.8866430032697451
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.998373037784965
+[frozenset({'NOPS_L', 'PCT5'})]----->('RC_L',)
+0.8866112084063048
+[frozenset({'NOPS_L', 'RC_L'})]----->('PCT5',)
+0.8444338804376835
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L', 'RC_L', 'PCT5'})]----->('NOPS_L',)
+0.9999400431689184
+[frozenset({'NOPS_L', 'RC_L', 'PCT5'})]----->('NOES_L',)
+0.9882964118872901
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('RC_L',)
+0.8933586879860015
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('PCT5',)
+0.8463815678181142
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'ECT5'})]----->('NOES_L',)
+0.9984370981462798
+[frozenset({'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8918498621615892
+[frozenset({'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8363591167087875
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9885057471264369
+[frozenset({'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8334334133973845
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L', 'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9900531029563286
+[frozenset({'NOPS_L', 'RC_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('ECT5',)
+0.845248164563386
+[frozenset({'NOES_L', 'RC_L', 'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9999399044480725
+[frozenset({'NOPS_L', 'RC_L', 'PCT5', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5', 'ECT5'})]----->('RC_L',)
+0.8932741605003444
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L', 'PCT5'})]----->('ECT5',)
+0.9976915235944276
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L', 'ECT5'})]----->('PCT5',)
+0.9990293399511667
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'ECT5'})]----->('NOES_L',)
+0.9984370981462798
+[frozenset({'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8918498621615892
+[frozenset({'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8363591167087875
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'ECT5'})]----->('EC_L',)
+0.9957069657942114
+[frozenset({'EC_L', 'ECT5'})]----->('RC_L',)
+0.9516966218835387
+[frozenset({'EC_L', 'RC_L'})]----->('ECT5',)
+0.7352973403361651
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9331660422704462
+[frozenset({'EC_L', 'ECT5'})]----->('NOES_L',)
+0.9985156331250179
+[frozenset({'EC_L', 'NOES_L'})]----->('ECT5',)
+0.8352736475798798
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOES_L', 'RC_L', 'ECT5'})]----->('EC_L',)
+0.9957299675041611
+[frozenset({'EC_L', 'RC_L', 'ECT5'})]----->('NOES_L',)
+0.9984601629246972
+[frozenset({'EC_L', 'NOES_L', 'ECT5'})]----->('RC_L',)
+0.9516437526038708
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8370324719129196
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L', 'ECT5'})]----->('NOES_L',)
+0.9984370981462798
+[frozenset({'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8918498621615892
+[frozenset({'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8363591167087875
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9885057471264369
+[frozenset({'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8334334133973845
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L', 'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9900531029563286
+[frozenset({'NOPS_L', 'RC_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('ECT5',)
+0.845248164563386
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9885057471264369
+[frozenset({'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.8931351607396617
+[frozenset({'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8334334133973845
+[frozenset({'ECT5'})]----->('RC_L',)
+0.8918747243052492
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'RC_L', 'ECT5'})]----->('EC_L',)
+0.9957069657942114
+[frozenset({'EC_L', 'ECT5'})]----->('RC_L',)
+0.9516966218835387
+[frozenset({'EC_L', 'RC_L'})]----->('ECT5',)
+0.7352973403361651
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'ECT5'})]----->('NOPS_L',)
+0.9866217889929944
+[frozenset({'EC_L', 'NOPS_L'})]----->('ECT5',)
+0.8329861027962036
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'NOPS_L', 'RC_L', 'ECT5'})]----->('EC_L',)
+0.9956870672056999
+[frozenset({'EC_L', 'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9884859924498312
+[frozenset({'EC_L', 'NOPS_L', 'ECT5'})]----->('RC_L',)
+0.9534948348889357
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('ECT5',)
+0.8341521075751988
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9331660422704462
+[frozenset({'EC_L', 'ECT5'})]----->('NOES_L',)
+0.9985156331250179
+[frozenset({'EC_L', 'NOES_L'})]----->('ECT5',)
+0.8352736475798798
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'ECT5'})]----->('NOPS_L',)
+0.9866217889929944
+[frozenset({'EC_L', 'NOPS_L'})]----->('ECT5',)
+0.8329861027962036
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOPS_L', 'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.988088474794531
+[frozenset({'EC_L', 'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8454577125310908
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9796412147325683
+[frozenset({'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860221510541767
+[frozenset({'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.8780458822568308
+[frozenset({'NOES_L'})]----->('RC_L',)
+0.8761479545537043
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9949289472593944
+[frozenset({'EC_L', 'RC_L'})]----->('NOES_L',)
+0.8771046845438542
+[frozenset({'EC_L', 'NOES_L'})]----->('RC_L',)
+0.9496440999683645
+[frozenset({'NOPS_L'})]----->('RC_L',)
+0.8705412567611718
+[frozenset({'RC_L'})]----->('EC_L',)
+0.7825100316669144
+[frozenset({'EC_L'})]----->('RC_L',)
+0.9498952247463884
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'RC_L'})]----->('EC_L',)
+0.9948291966906858
+[frozenset({'EC_L', 'RC_L'})]----->('NOPS_L',)
+0.8713412273461069
+[frozenset({'EC_L', 'NOPS_L'})]----->('RC_L',)
+0.9521620089880822
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L'})]----->('EC_L',)
+0.9948404777210136
+[frozenset({'EC_L', 'NOES_L', 'RC_L'})]----->('NOPS_L',)
+0.9795541045863765
+[frozenset({'EC_L', 'NOPS_L', 'RC_L'})]----->('NOES_L',)
+0.9860333322155528
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('RC_L',)
+0.9529203023600612
+[frozenset({'EC_L', 'NOES_L', 'RC_L', 'ECT5'})]----->('NOPS_L',)
+0.9900104472414307
+[frozenset({'NOPS_L', 'NOES_L', 'RC_L', 'ECT5'})]----->('EC_L',)
+0.9956870672056999
+[frozenset({'EC_L', 'NOPS_L', 'RC_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L', 'ECT5'})]----->('RC_L',)
+0.9534948348889357
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L', 'RC_L'})]----->('ECT5',)
+0.8459674539611285
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5', 'PCT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'PCT5'})]----->('EC_L',)
+0.9327508888531563
+[frozenset({'EC_L', 'PCT5'})]----->('ECT5',)
+0.9852980032461406
+[frozenset({'EC_L', 'ECT5'})]----->('PCT5',)
+0.9871890629579557
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328137693385825
+[frozenset({'EC_L', 'PCT5'})]----->('NOES_L',)
+0.986024610274412
+[frozenset({'EC_L', 'NOES_L'})]----->('PCT5',)
+0.8264077823473583
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9331660422704462
+[frozenset({'EC_L', 'ECT5'})]----->('NOES_L',)
+0.9985156331250179
+[frozenset({'EC_L', 'NOES_L'})]----->('ECT5',)
+0.8352736475798798
+[frozenset({'NOES_L', 'ECT5', 'PCT5'})]----->('EC_L',)
+0.932798897726561
+[frozenset({'EC_L', 'ECT5', 'PCT5'})]----->('NOES_L',)
+0.9985059474783075
+[frozenset({'EC_L', 'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977701428831193
+[frozenset({'EC_L', 'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9871794871794871
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5', 'ECT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'NOES_L', 'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9999463178519983
+[frozenset({'NOPS_L', 'PCT5', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977859317388471
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'ECT5', 'PCT5'})]----->('EC_L',)
+0.9327508888531563
+[frozenset({'EC_L', 'PCT5'})]----->('ECT5',)
+0.9852980032461406
+[frozenset({'EC_L', 'ECT5'})]----->('PCT5',)
+0.9871890629579557
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PCT5'})]----->('EC_L',)
+0.9265061295971978
+[frozenset({'EC_L', 'PCT5'})]----->('NOPS_L',)
+0.9984429849394179
+[frozenset({'EC_L', 'NOPS_L'})]----->('PCT5',)
+0.844584400967456
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'ECT5'})]----->('NOPS_L',)
+0.9866217889929944
+[frozenset({'EC_L', 'NOPS_L'})]----->('ECT5',)
+0.8329861027962036
+[frozenset({'NOPS_L', 'ECT5', 'PCT5'})]----->('EC_L',)
+0.9327952900333741
+[frozenset({'EC_L', 'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9984484839197808
+[frozenset({'EC_L', 'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.9853034298297845
+[frozenset({'EC_L', 'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9990225578319949
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328137693385825
+[frozenset({'EC_L', 'PCT5'})]----->('NOES_L',)
+0.986024610274412
+[frozenset({'EC_L', 'NOES_L'})]----->('PCT5',)
+0.8264077823473583
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5'})]----->('EC_L',)
+0.9264744452798517
+[frozenset({'EC_L'})]----->('PCT5',)
+0.7353141175980794
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'PCT5'})]----->('EC_L',)
+0.9265061295971978
+[frozenset({'EC_L', 'PCT5'})]----->('NOPS_L',)
+0.9984429849394179
+[frozenset({'EC_L', 'NOPS_L'})]----->('PCT5',)
+0.844584400967456
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('EC_L',)
+0.9328101704296898
+[frozenset({'EC_L', 'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999425787866898
+[frozenset({'EC_L', 'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.9875055525626849
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8465190514384787
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9331660422704462
+[frozenset({'EC_L', 'ECT5'})]----->('NOES_L',)
+0.9985156331250179
+[frozenset({'EC_L', 'NOES_L'})]----->('ECT5',)
+0.8352736475798798
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'ECT5'})]----->('EC_L',)
+0.9331186590207322
+[frozenset({'EC_L'})]----->('ECT5',)
+0.7339055496190621
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'ECT5'})]----->('NOPS_L',)
+0.9866217889929944
+[frozenset({'EC_L', 'NOPS_L'})]----->('ECT5',)
+0.8329861027962036
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L'})]----->('EC_L',)
+0.9179280554648082
+[frozenset({'EC_L'})]----->('NOES_L',)
+0.8773366269307096
+[frozenset({'NOPS_L'})]----->('EC_L',)
+0.9095509492866737
+[frozenset({'EC_L'})]----->('NOPS_L',)
+0.8692668507750594
+[frozenset({'NOPS_L', 'NOES_L'})]----->('EC_L',)
+0.9166722367043202
+[frozenset({'EC_L', 'NOES_L'})]----->('NOPS_L',)
+0.9761863334387852
+[frozenset({'EC_L', 'NOPS_L'})]----->('NOES_L',)
+0.9852486889053856
+[frozenset({'NOPS_L', 'NOES_L', 'ECT5'})]----->('EC_L',)
+0.9326564720392533
+[frozenset({'EC_L', 'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.988088474794531
+[frozenset({'EC_L', 'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8454577125310908
+[frozenset({'EC_L', 'NOES_L', 'ECT5', 'PCT5'})]----->('NOPS_L',)
+0.9999424504594372
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5', 'ECT5'})]----->('EC_L',)
+0.9327952900333741
+[frozenset({'EC_L', 'NOPS_L', 'ECT5', 'PCT5'})]----->('NOES_L',)
+1.0
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977700148346653
+[frozenset({'EC_L', 'NOPS_L', 'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9990225578319949
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5', 'ECT5'})]----->('PT8',)
+0.9022261528291436
+[frozenset({'PT8', 'ECT5'})]----->('PCT5',)
+0.9989910879435009
+[frozenset({'PT8', 'PCT5'})]----->('ECT5',)
+0.9879679536717304
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5', 'ECT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8', 'ECT5'})]----->('NOES_L',)
+0.9983778276738644
+[frozenset({'NOES_L', 'ECT5'})]----->('PT8',)
+0.8918410263660141
+[frozenset({'NOES_L', 'PT8'})]----->('ECT5',)
+0.831336018383534
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8', 'PCT5'})]----->('NOES_L',)
+0.988623357821319
+[frozenset({'NOES_L', 'PCT5'})]----->('PT8',)
+0.9022201987198372
+[frozenset({'NOES_L', 'PT8'})]----->('PCT5',)
+0.8323985075733241
+[frozenset({'PT8', 'PCT5', 'ECT5'})]----->('NOES_L',)
+0.9983761893917642
+[frozenset({'NOES_L', 'PCT5', 'ECT5'})]----->('PT8',)
+0.9021553382422675
+[frozenset({'NOES_L', 'PT8', 'ECT5'})]----->('PCT5',)
+0.998989448655075
+[frozenset({'NOES_L', 'PT8', 'PCT5'})]----->('ECT5',)
+0.9977143196390407
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5', 'ECT5'})]----->('NOES_L',)
+0.9984545568240697
+[frozenset({'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9875680356259279
+[frozenset({'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977860503316461
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'NOES_L', 'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9999463178519983
+[frozenset({'NOPS_L', 'PCT5', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'NOES_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5'})]----->('ECT5',)
+0.9977859317388471
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5', 'ECT5'})]----->('PT8',)
+0.9022261528291436
+[frozenset({'PT8', 'ECT5'})]----->('PCT5',)
+0.9989910879435009
+[frozenset({'PT8', 'PCT5'})]----->('ECT5',)
+0.9879679536717304
+[frozenset({'ECT5'})]----->('PCT5',)
+0.9875782973092192
+[frozenset({'PCT5'})]----->('ECT5',)
+0.9786679722333933
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9984009576387773
+[frozenset({'NOPS_L', 'ECT5'})]----->('PCT5',)
+0.9988738839385464
+[frozenset({'NOPS_L', 'PCT5'})]----->('ECT5',)
+0.978660245183888
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8', 'ECT5'})]----->('NOPS_L',)
+0.998229458253791
+[frozenset({'NOPS_L', 'ECT5'})]----->('PT8',)
+0.9019653406501087
+[frozenset({'NOPS_L', 'PT8'})]----->('ECT5',)
+0.8217304216131712
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8', 'PCT5'})]----->('NOPS_L',)
+0.9983174699443395
+[frozenset({'NOPS_L', 'PCT5'})]----->('PT8',)
+0.8936514886164624
+[frozenset({'NOPS_L', 'PT8'})]----->('PCT5',)
+0.830972039018353
+[frozenset({'PT8', 'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.9983167816865849
+[frozenset({'NOPS_L', 'PCT5', 'ECT5'})]----->('PT8',)
+0.9021500854486726
+[frozenset({'NOPS_L', 'PT8', 'ECT5'})]----->('PCT5',)
+0.999078478002378
+[frozenset({'NOPS_L', 'PT8', 'PCT5'})]----->('ECT5',)
+0.9879672725491158
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8', 'PCT5'})]----->('NOES_L',)
+0.988623357821319
+[frozenset({'NOES_L', 'PCT5'})]----->('PT8',)
+0.9022201987198372
+[frozenset({'NOES_L', 'PT8'})]----->('PCT5',)
+0.8323985075733241
+[frozenset({'PCT5'})]----->('NOES_L',)
+0.9793236698081865
+[frozenset({'NOES_L'})]----->('PCT5',)
+0.8132200805836872
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOES_L', 'PCT5'})]----->('NOPS_L',)
+0.9999464367015721
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PCT5',)
+0.8318739834681282
+[frozenset({'NOPS_L', 'PCT5'})]----->('NOES_L',)
+0.980831873905429
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'PCT5'})]----->('PT8',)
+0.8937332797118428
+[frozenset({'PCT5'})]----->('NOPS_L',)
+0.998408840551835
+[frozenset({'NOPS_L'})]----->('PCT5',)
+0.8291283987367045
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8', 'PCT5'})]----->('NOPS_L',)
+0.9983174699443395
+[frozenset({'NOPS_L', 'PCT5'})]----->('PT8',)
+0.8936514886164624
+[frozenset({'NOPS_L', 'PT8'})]----->('PCT5',)
+0.830972039018353
+[frozenset({'NOES_L', 'PT8', 'PCT5'})]----->('NOPS_L',)
+0.9999406316789361
+[frozenset({'NOPS_L', 'PCT5', 'NOES_L'})]----->('PT8',)
+0.902214961030613
+[frozenset({'NOPS_L', 'PT8', 'NOES_L'})]----->('PCT5',)
+0.8327400375753978
+[frozenset({'NOPS_L', 'PT8', 'PCT5'})]----->('NOES_L',)
+0.9902307579246484
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'PT8', 'ECT5'})]----->('NOES_L',)
+0.9983778276738644
+[frozenset({'NOES_L', 'ECT5'})]----->('PT8',)
+0.8918410263660141
+[frozenset({'NOES_L', 'PT8'})]----->('ECT5',)
+0.831336018383534
+[frozenset({'ECT5'})]----->('NOES_L',)
+0.9984649316277018
+[frozenset({'NOES_L'})]----->('ECT5',)
+0.8216341790990598
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOES_L', 'ECT5'})]----->('NOPS_L',)
+0.9886283310949318
+[frozenset({'NOPS_L', 'NOES_L'})]----->('ECT5',)
+0.8309679240098329
+[frozenset({'NOPS_L', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOES_L'})]----->('PT8',)
+0.8814330828705215
+[frozenset({'NOES_L'})]----->('NOPS_L',)
+0.9775236850702385
+[frozenset({'NOPS_L'})]----->('NOES_L',)
+0.9775946564054162
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'NOES_L', 'PT8'})]----->('NOPS_L',)
+0.9995305280324185
+[frozenset({'NOPS_L', 'NOES_L'})]----->('PT8',)
+0.9012766526301719
+[frozenset({'NOPS_L', 'PT8'})]----->('NOES_L',)
+0.9881283892715815
+[frozenset({'ECT5'})]----->('PT8',)
+0.8919188354653727
+[frozenset({'ECT5'})]----->('NOPS_L',)
+0.9871107190119099
+[frozenset({'NOPS_L'})]----->('ECT5',)
+0.8123498021563146
+[frozenset({'NOPS_L'})]----->('PT8',)
+0.8916687842596289
+[frozenset({'PT8', 'ECT5'})]----->('NOPS_L',)
+0.998229458253791
+[frozenset({'NOPS_L', 'ECT5'})]----->('PT8',)
+0.9019653406501087
+[frozenset({'NOPS_L', 'PT8'})]----->('ECT5',)
+0.8217304216131712
+[frozenset({'NOES_L', 'PT8', 'ECT5'})]----->('NOPS_L',)
+0.9998513895080993
+[frozenset({'NOPS_L', 'ECT5', 'NOES_L'})]----->('PT8',)
+0.9019653406501087
+[frozenset({'NOPS_L', 'PT8', 'NOES_L'})]----->('ECT5',)
+0.8316028873726886
+[frozenset({'NOPS_L', 'PT8', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOES_L', 'PT8', 'PCT5', 'ECT5'})]----->('NOPS_L',)
+0.99994049567106
+[frozenset({'NOPS_L', 'NOES_L', 'PCT5', 'ECT5'})]----->('PT8',)
+0.9021500854486726
+[frozenset({'NOPS_L', 'PT8', 'PCT5', 'ECT5'})]----->('NOES_L',)
+1.0
+[frozenset({'NOPS_L', 'PT8', 'PCT5', 'NOES_L'})]----->('ECT5',)
+0.9977141839339786
+[frozenset({'NOPS_L', 'PT8', 'ECT5', 'NOES_L'})]----->('PCT5',)
+0.999078478002378
